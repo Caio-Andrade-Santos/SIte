@@ -44,7 +44,7 @@
     justify-content: center;
     margin-top: 10px;
     width: auto;             
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -93,6 +93,7 @@ header{
 .centro {
   display: flex;
   gap: 20px;
+  align-self: self-end;
   flex-wrap: nowrap;
   flex: 1;
 }
@@ -197,9 +198,6 @@ div.imgm > h3{
 #inaug{
     border-radius: 5px;
 }
-.idolos{
-    font-weight: bolder;
-}
 .stats{
     background-color: black;
     color: white;
@@ -283,5 +281,7 @@ html, body{
 }
 h3.logo{
   font-family: "Oswald", sans-serif;
-  color: white;
+  color: var(--cor4);
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px var(--cor1);
 }
